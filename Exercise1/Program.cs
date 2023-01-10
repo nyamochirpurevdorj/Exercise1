@@ -1,13 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine(CountWord("Hello world!"));
+Console.WriteLine(CountWord("    ass 225  awe awuuee"));
 
 
  int CountWord(string text)
 {
-    if (string.IsNullOrEmpty(text.Trim())) return 0;
+    if (string.IsNullOrEmpty(text)) return 0;
     else
     {
-        text = text.Trim();
         int wordCount = 0;
         bool currentCharIsAWord = false;
         for (int index = 0; index < text.Length; index++)
